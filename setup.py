@@ -25,10 +25,6 @@ setup(
         'Use in a project Django for validate CPF and CNPJ'
     ),
     download_url=download_url,
-    packages=[
-        'fields',
-        'fields.cpf_cnpj'
-    ],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
