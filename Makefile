@@ -16,3 +16,6 @@ clean:
 	@rm -rf htmlcov/
 	@rm -f coverage.xml
 	@rm -f *.log
+
+install-dev:
+	pip install -r requirements/dev.txt
