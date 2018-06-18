@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 download_url = 'https://github.com/DanielBacci/custom_fields/tarball/master'
 
@@ -18,6 +18,7 @@ setup(
     author='Daniel Bacci',
     author_email='danielhdbacci@gmail.com',
     keywords='Django cpf cnpj validate form',
+    packages=find_packages(exclude=['tests*']),
     description=(
         'Python module for brazilian validate CPF and CNPJ for Django.'
     ),
